@@ -1,10 +1,13 @@
 # discrete-opt-TALight
 
-1. Step 1: Install Rust 
+1. Step 1: Install Rust and Cargo
 
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
+
+or On Windows, download and run [rustup-init.exe](https://win.rustup.rs/). It will start the installation in a console and present the above message on success.
+
 2. Step 2: get `typst` installed on your machine
 
 macOS: `brew install typst`
