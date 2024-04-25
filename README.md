@@ -13,7 +13,7 @@ or On Windows, download and run [rustup-init.exe](https://win.rustup.rs/). It wi
 macOS: `brew install typst`
 Windows: `winget install --id Typst.Typst`
 
-3. Step 3: clone and installa `rtal`
+3. Step 3: clone and install `rtal`
 
 You should clone an `rtal` version with the capability to deal with the GIA credential, hence clone rtal from the GitHub repo:
 
