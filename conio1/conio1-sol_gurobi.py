@@ -9,9 +9,6 @@ def makechange(total):
         remaining -= coins_used * coin
 
     total_pieces = sum(pieces_used)
-    
-    # Adjusting the number of 1000 denomination coins used
-    pieces_used[-1] += remaining // 1000
 
     return total_pieces, reversed(pieces_used)
 
