@@ -51,7 +51,7 @@ if __name__ == "__main__":
 	# Number of test cases
 	T = int(lines[0])
 
-	# Because we read from the second line (or ine 1)
+	# Because we read from the second line (or line 1)
 	input_index = 1
 	output_lines = []
 
