@@ -1,6 +1,8 @@
 ## VR505019 - KHOI MAI TIEU
 ## VR501305 - PEDRO ALONSO LOPEZ TORRES
 
+import sys
+
 class Graph:
 
 	# init function to declare class variables
@@ -44,8 +46,23 @@ class Graph:
 		return cc
 	
 if __name__ == "__main__":
-	# Read the input from input.txt
-	with open('connected_components/example.in.txt', 'r') as file:
+	
+	# Read input file name from command line arguments
+
+	# If no arguments are provided, use the default input file name are conio1/example.in.txt
+	if len(sys.argv) == 1:
+		input_file_name = './connected_components/example.in.txt'
+	# If one argument is provided, use the provided argument as the input file name
+	elif len(sys.argv) == 2:
+		input_file_name = sys.argv[1]
+	else:
+		print("Usage: python connected_components-sol.py [input-file-path.txt]")
+		sys.exit(1)
+	
+	output_file_name = input_file_name.replace(".txt", "_output.txt")
+	
+	# Read the input from input_file_name
+	with open(input_file_name, 'r') as file:
 		lines = file.readlines()
 
 	# Number of test cases
@@ -77,7 +94,6 @@ if __name__ == "__main__":
 		for component in cc:
 			output_lines.append(' '.join(map(str, component)))
 
-	# Write the output to output.txt
-	with open('connected_components/output.txt', 'w') as file:
+	# Write the output to [output_file_name]
+	with open(output_file_name, 'w') as file:
 		file.write('\n'.join(output_lines))
-    
