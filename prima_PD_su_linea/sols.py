@@ -26,3 +26,36 @@ if __name__ == "__main__":
     arr = [1,2,3,4,5,6]
     n = len(arr)
     print(maxSum(arr, n))
+
+def count_feasible_solutions(arr, n):
+    feasible_solutions = 0
+    if n == 0:
+        return feasible_solutions
+    elif n == 1 or n == 2 or n == 3:
+        feasible_solutions += 1
+        return feasible_solutions
+    else:
+        # n = 4 --> 6 feasible solutions
+        # n = 5 --> 13 feasible solutions
+        # per vedere se due oggetti sono adiacenti o hanno un oggetto adiacente in comune
+        # si può calcolare la differenza dei loro indici
+        # nel caso sia uguale a 1 o 2, allora non possono venire selezionati
+        for idx_1, object in enumerate(arr):
+                for idx_2 in range(idx_1, len(arr), 3):
+                    feasible_solutions += 1
+                    idx_2 += 3
+                    if idx_2 <= len(arr):
+                        feasible_solutions += 1
+            
+        return feasible_solutions
+
+
+                           
+                    
+            
+                  
+
+
+
+	
+		
