@@ -1,6 +1,8 @@
+## VR505019 - KHOI MAI TIEU
+## VR501305 - PEDRO ALONSO LOPEZ TORRES
+
 #!/usr/bin/env python3
 from sys import stderr, stdout, argv
-
 
 MOD = 10**9 + 7
 
