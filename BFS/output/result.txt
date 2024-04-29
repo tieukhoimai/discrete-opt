@@ -1,0 +1,265 @@
+
+Subtask 1 (2 testcases):
+Case #001 [esempi_testo - hardcoded]: AC (0.036/1.000 secs) All Correct (got 3/3 points)
+Some feedback is in order:
+ - compute distances: 1/1 points. Feedback: The distances are ok.
+
+ - compute BFS-tree: 1/1 points. Feedback: The BFS-tree is ok.
+
+ - count number of BFS-trees: 1/1 points. Feedback: The number of BFS-trees is ok.
+
+Case #002 [esempi_testo - hardcoded]: AC (0.036/1.000 secs) All Correct (got 3/3 points)
+Some feedback is in order:
+ - compute distances: 1/1 points. Feedback: The distances are ok.
+
+ - compute BFS-tree: 1/1 points. Feedback: The BFS-tree is ok.
+
+ - count number of BFS-trees: 1/1 points. Feedback: The number of BFS-trees is ok.
+
+
+Subtask 2 (12 testcases):
+Case #003 [small(seed=320142)]: AC (0.036/1.000 secs) All Correct (got 3/3 points)
+Some feedback is in order:
+ - compute distances: 1/1 points. Feedback: The distances are ok.
+
+ - compute BFS-tree: 1/1 points. Feedback: The BFS-tree is ok.
+
+ - count number of BFS-trees: 1/1 points. Feedback: The number of BFS-trees is ok.
+
+Case #004 [small(seed=788803)]: AC (0.036/1.000 secs) All Correct (got 3/3 points)
+Some feedback is in order:
+ - compute distances: 1/1 points. Feedback: The distances are ok.
+
+ - compute BFS-tree: 1/1 points. Feedback: The BFS-tree is ok.
+
+ - count number of BFS-trees: 1/1 points. Feedback: The number of BFS-trees is ok.
+
+Case #005 [small(seed=968599)]: AC (0.036/1.000 secs) All Correct (got 3/3 points)
+Some feedback is in order:
+ - compute distances: 1/1 points. Feedback: The distances are ok.
+
+ - compute BFS-tree: 1/1 points. Feedback: The BFS-tree is ok.
+
+ - count number of BFS-trees: 1/1 points. Feedback: The number of BFS-trees is ok.
+
+Case #006 [small(seed=929847)]: AC (0.037/1.000 secs) All Correct (got 3/3 points)
+Some feedback is in order:
+ - compute distances: 1/1 points. Feedback: The distances are ok.
+
+ - compute BFS-tree: 1/1 points. Feedback: The BFS-tree is ok.
+
+ - count number of BFS-trees: 1/1 points. Feedback: The number of BFS-trees is ok.
+
+Case #007 [small(seed=540739)]: AC (0.036/1.000 secs) All Correct (got 3/3 points)
+Some feedback is in order:
+ - compute distances: 1/1 points. Feedback: The distances are ok.
+
+ - compute BFS-tree: 1/1 points. Feedback: The BFS-tree is ok.
+
+ - count number of BFS-trees: 1/1 points. Feedback: The number of BFS-trees is ok.
+
+Case #008 [small(seed=325898)]: AC (0.036/1.000 secs) All Correct (got 3/3 points)
+Some feedback is in order:
+ - compute distances: 1/1 points. Feedback: The distances are ok.
+
+ - compute BFS-tree: 1/1 points. Feedback: The BFS-tree is ok.
+
+ - count number of BFS-trees: 1/1 points. Feedback: The number of BFS-trees is ok.
+
+Case #009 [small(seed=813483)]: AC (0.036/1.000 secs) All Correct (got 3/3 points)
+Some feedback is in order:
+ - compute distances: 1/1 points. Feedback: The distances are ok.
+
+ - compute BFS-tree: 1/1 points. Feedback: The BFS-tree is ok.
+
+ - count number of BFS-trees: 1/1 points. Feedback: The number of BFS-trees is ok.
+
+Case #010 [small(seed=172879)]: AC (0.036/1.000 secs) All Correct (got 3/3 points)
+Some feedback is in order:
+ - compute distances: 1/1 points. Feedback: The distances are ok.
+
+ - compute BFS-tree: 1/1 points. Feedback: The BFS-tree is ok.
+
+ - count number of BFS-trees: 1/1 points. Feedback: The number of BFS-trees is ok.
+
+Case #011 [small(seed=912125)]: AC (0.035/1.000 secs) All Correct (got 3/3 points)
+Some feedback is in order:
+ - compute distances: 1/1 points. Feedback: The distances are ok.
+
+ - compute BFS-tree: 1/1 points. Feedback: The BFS-tree is ok.
+
+ - count number of BFS-trees: 1/1 points. Feedback: The number of BFS-trees is ok.
+
+Case #012 [small(seed=821175)]: AC (0.036/1.000 secs) All Correct (got 3/3 points)
+Some feedback is in order:
+ - compute distances: 1/1 points. Feedback: The distances are ok.
+
+ - compute BFS-tree: 1/1 points. Feedback: The BFS-tree is ok.
+
+ - count number of BFS-trees: 1/1 points. Feedback: The number of BFS-trees is ok.
+
+Case #013 [small(seed=704891)]: AC (0.035/1.000 secs) All Correct (got 3/3 points)
+Some feedback is in order:
+ - compute distances: 1/1 points. Feedback: The distances are ok.
+
+ - compute BFS-tree: 1/1 points. Feedback: The BFS-tree is ok.
+
+ - count number of BFS-trees: 1/1 points. Feedback: The number of BFS-trees is ok.
+
+Case #014 [small(seed=664542)]: AC (0.036/1.000 secs) All Correct (got 3/3 points)
+Some feedback is in order:
+ - compute distances: 1/1 points. Feedback: The distances are ok.
+
+ - compute BFS-tree: 1/1 points. Feedback: The BFS-tree is ok.
+
+ - count number of BFS-trees: 1/1 points. Feedback: The number of BFS-trees is ok.
+
+
+Subtask 3 (18 testcases):
+Case #015 [medium(seed=358554)]: AC (0.045/1.000 secs) All Correct (got 3/3 points)
+Some feedback is in order:
+ - compute distances: 1/1 points. Feedback: The distances are ok.
+
+ - compute BFS-tree: 1/1 points. Feedback: The BFS-tree is ok.
+
+ - count number of BFS-trees: 1/1 points. Feedback: The number of BFS-trees is ok.
+
+Case #016 [medium(seed=593278)]: AC (0.043/1.000 secs) All Correct (got 3/3 points)
+Some feedback is in order:
+ - compute distances: 1/1 points. Feedback: The distances are ok.
+
+ - compute BFS-tree: 1/1 points. Feedback: The BFS-tree is ok.
+
+ - count number of BFS-trees: 1/1 points. Feedback: The number of BFS-trees is ok.
+
+Case #017 [medium(seed=128383)]: AC (0.042/1.000 secs) All Correct (got 3/3 points)
+Some feedback is in order:
+ - compute distances: 1/1 points. Feedback: The distances are ok.
+
+ - compute BFS-tree: 1/1 points. Feedback: The BFS-tree is ok.
+
+ - count number of BFS-trees: 1/1 points. Feedback: The number of BFS-trees is ok.
+
+Case #018 [medium(seed=319405)]: AC (0.042/1.000 secs) All Correct (got 3/3 points)
+Some feedback is in order:
+ - compute distances: 1/1 points. Feedback: The distances are ok.
+
+ - compute BFS-tree: 1/1 points. Feedback: The BFS-tree is ok.
+
+ - count number of BFS-trees: 1/1 points. Feedback: The number of BFS-trees is ok.
+
+Case #019 [medium(seed=913220)]: AC (0.041/1.000 secs) All Correct (got 3/3 points)
+Some feedback is in order:
+ - compute distances: 1/1 points. Feedback: The distances are ok.
+
+ - compute BFS-tree: 1/1 points. Feedback: The BFS-tree is ok.
+
+ - count number of BFS-trees: 1/1 points. Feedback: The number of BFS-trees is ok.
+
+Case #020 [medium(seed=692128)]: AC (0.043/1.000 secs) All Correct (got 3/3 points)
+Some feedback is in order:
+ - compute distances: 1/1 points. Feedback: The distances are ok.
+
+ - compute BFS-tree: 1/1 points. Feedback: The BFS-tree is ok.
+
+ - count number of BFS-trees: 1/1 points. Feedback: The number of BFS-trees is ok.
+
+Case #021 [medium(seed=190739)]: AC (0.044/1.000 secs) All Correct (got 3/3 points)
+Some feedback is in order:
+ - compute distances: 1/1 points. Feedback: The distances are ok.
+
+ - compute BFS-tree: 1/1 points. Feedback: The BFS-tree is ok.
+
+ - count number of BFS-trees: 1/1 points. Feedback: The number of BFS-trees is ok.
+
+Case #022 [medium(seed=661695)]: AC (0.045/1.000 secs) All Correct (got 3/3 points)
+Some feedback is in order:
+ - compute distances: 1/1 points. Feedback: The distances are ok.
+
+ - compute BFS-tree: 1/1 points. Feedback: The BFS-tree is ok.
+
+ - count number of BFS-trees: 1/1 points. Feedback: The number of BFS-trees is ok.
+
+Case #023 [medium(seed=571655)]: AC (0.044/1.000 secs) All Correct (got 3/3 points)
+Some feedback is in order:
+ - compute distances: 1/1 points. Feedback: The distances are ok.
+
+ - compute BFS-tree: 1/1 points. Feedback: The BFS-tree is ok.
+
+ - count number of BFS-trees: 1/1 points. Feedback: The number of BFS-trees is ok.
+
+Case #024 [medium(seed=991066)]: AC (0.043/1.000 secs) All Correct (got 3/3 points)
+Some feedback is in order:
+ - compute distances: 1/1 points. Feedback: The distances are ok.
+
+ - compute BFS-tree: 1/1 points. Feedback: The BFS-tree is ok.
+
+ - count number of BFS-trees: 1/1 points. Feedback: The number of BFS-trees is ok.
+
+Case #025 [medium(seed=185711)]: AC (0.042/1.000 secs) All Correct (got 3/3 points)
+Some feedback is in order:
+ - compute distances: 1/1 points. Feedback: The distances are ok.
+
+ - compute BFS-tree: 1/1 points. Feedback: The BFS-tree is ok.
+
+ - count number of BFS-trees: 1/1 points. Feedback: The number of BFS-trees is ok.
+
+Case #026 [medium(seed=410153)]: AC (0.044/1.000 secs) All Correct (got 3/3 points)
+Some feedback is in order:
+ - compute distances: 1/1 points. Feedback: The distances are ok.
+
+ - compute BFS-tree: 1/1 points. Feedback: The BFS-tree is ok.
+
+ - count number of BFS-trees: 1/1 points. Feedback: The number of BFS-trees is ok.
+
+Case #027 [medium(seed=919142)]: AC (0.041/1.000 secs) All Correct (got 3/3 points)
+Some feedback is in order:
+ - compute distances: 1/1 points. Feedback: The distances are ok.
+
+ - compute BFS-tree: 1/1 points. Feedback: The BFS-tree is ok.
+
+ - count number of BFS-trees: 1/1 points. Feedback: The number of BFS-trees is ok.
+
+Case #028 [medium(seed=205317)]: AC (0.042/1.000 secs) All Correct (got 3/3 points)
+Some feedback is in order:
+ - compute distances: 1/1 points. Feedback: The distances are ok.
+
+ - compute BFS-tree: 1/1 points. Feedback: The BFS-tree is ok.
+
+ - count number of BFS-trees: 1/1 points. Feedback: The number of BFS-trees is ok.
+
+Case #029 [medium(seed=829183)]: AC (0.041/1.000 secs) All Correct (got 3/3 points)
+Some feedback is in order:
+ - compute distances: 1/1 points. Feedback: The distances are ok.
+
+ - compute BFS-tree: 1/1 points. Feedback: The BFS-tree is ok.
+
+ - count number of BFS-trees: 1/1 points. Feedback: The number of BFS-trees is ok.
+
+Case #030 [medium(seed=384873)]: AC (0.042/1.000 secs) All Correct (got 3/3 points)
+Some feedback is in order:
+ - compute distances: 1/1 points. Feedback: The distances are ok.
+
+ - compute BFS-tree: 1/1 points. Feedback: The BFS-tree is ok.
+
+ - count number of BFS-trees: 1/1 points. Feedback: The number of BFS-trees is ok.
+
+Case #031 [medium(seed=154244)]: AC (0.046/1.000 secs) All Correct (got 3/3 points)
+Some feedback is in order:
+ - compute distances: 1/1 points. Feedback: The distances are ok.
+
+ - compute BFS-tree: 1/1 points. Feedback: The BFS-tree is ok.
+
+ - count number of BFS-trees: 1/1 points. Feedback: The number of BFS-trees is ok.
+
+Case #032 [medium(seed=259000)]: AC (0.044/1.000 secs) All Correct (got 3/3 points)
+Some feedback is in order:
+ - compute distances: 1/1 points. Feedback: The distances are ok.
+
+ - compute BFS-tree: 1/1 points. Feedback: The BFS-tree is ok.
+
+ - count number of BFS-trees: 1/1 points. Feedback: The number of BFS-trees is ok.
+
+
+
+Score: 96/96 points
