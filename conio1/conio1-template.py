@@ -1,4 +1,6 @@
-#!/usr/bin/env python3
+# VR505019 - KHOI MAI TIEU
+# VR501305 - PEDRO ALONSO LOPEZ TORRES
+
 from sys import stderr, stdout, argv
 
 pieces = [1,2,5,10,20,50,100,200,500,1000]
