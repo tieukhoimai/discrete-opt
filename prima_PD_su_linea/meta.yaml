@@ -21,7 +21,7 @@ services:
                 default: random
                 explain: the evaluation manager is a random process that poses different instances at each call to prevent you from precomputing all the answers and circumvent the required time limits. However, using the `global_seed` argument, you can precisely replicate an entire previous run as a whole. This gives transparency and helps in identifying problems on either side. Of course, the points collected in such runs are not taken into account for exams or assigned homeworks.
             subtask:
-                regex: ^(undefined|esempi_testo|practice|tiny|small|medium|big|large|extra_large|huge|colossal)$
+                regex: ^(undefined|esempi_testo|small|medium|big|large|all_equal|extra_large)$
                 default: undefined
                 explain: "you can restrict attention to one single subtask. For subtasks that deliver points only when all their testcases are correctly managed, the policy might well be that the best points over different subtasks get summed up even at an exam."
             instance_num:

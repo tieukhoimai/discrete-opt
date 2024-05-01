@@ -33,7 +33,7 @@ def solve(n, arr):
 
     optimal_indices = [i for i, x in enumerate(dp) if x == dp[n-1]]
     optimal_subset = [idx[i] for i in optimal_indices]
-    optimal_solution = unique_count = len(set([tuple(sublist) for sublist in optimal_subset]))
+    optimal_solution = len(set([tuple(sublist) for sublist in optimal_subset]))
 
     return number_of_feasible_solutions, dp[n - 1], idx[n - 1], optimal_solution
 
