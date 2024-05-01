@@ -1,5 +1,7 @@
 # discrete-opt-TALight
 
+## Installation
+
 1. Step 1: Install Rust and Cargo
 
 ```bash
@@ -78,8 +80,7 @@ So, for every problem, the main file is `testo.pdf`, that open (and/or prints) l
 
 *Important:* Please, if you are not confortable with Italien, and the file `testo.en.pdf` is not yet there, remind us that we have still to provide it as due.
 
-
-= How to submit your solutions and get points
+##  How to submit your solutions and get points
 
 First thing you have to login to the service through your GIA credentials:
 
@@ -97,7 +98,7 @@ This will return you an URL which you open at in any browser and do the accredit
 
 3. if the source actually comprises more than one file then put the .tar of them in attachment
 
-== Example of call
+Example of call
 ```bash
 rtal -s wss://ta.di.univr.it/DODM2024 connect conio1 -f source=conio1-sol_gurobi.py -- ~/corsi/Algoritmi/esami-algo-private/esercitazioni/conio1/sol/conio1-sol_gurobi.py
 ```
@@ -110,3 +111,9 @@ rtal -s wss://ta.di.univr.it/DODM2024 connect conio1 -f source=conio1-sol_gurobi
 ```
 
 *Note 2:* What your program writes on `stderr` does not disturb the interaction with the server and appears on you terminal. THerefore, `stderr` is a very useful channel for print debugging.
+
+To see the points we have collected 
+
+```bash
+rtal -s wss://ta.di.univr.it/DODM2024 connect scoreboard
+```
