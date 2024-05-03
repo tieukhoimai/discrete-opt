@@ -1,0 +1,18 @@
+
+Subtask 1 (3 testcases):
+Case #001 [esempi_testo - hardcoded]: AC (0.008/1.000 secs) All Correct (got 2/2 points)
+Case #002 [esempi_testo - hardcoded]: PAC (0.004/1.000 secs) Partially Correct (2/2 points)
+Some feedback is in order:
+ - count optimal solutions: 0/0 points. Feedback: the number of optimal solutions for this instance is 13 and not 1.
+
+Case #003 [esempi_testo - hardcoded]: AC (0.004/1.000 secs) All Correct (got 2/2 points)
+
+Subtask 2 (5 testcases):
+Case #004 [small(seed=976790)]: RE
+Case #005 [small(seed=117821)]: RE
+Case #006 [small(seed=447857)]: RE
+Case #007 [small(seed=271120)]: RE
+Case #008 [small(seed=147731)]: RE
+
+
+Score: 6 of the 26 points available on the 3/8 testcases (instances) where your solution respected the intended protocol (5 testcases yielded RE).

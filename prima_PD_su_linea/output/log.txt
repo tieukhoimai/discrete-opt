@@ -1,0 +1,43 @@
+TALight evaluation manager service called for problem:
+   prima_PD_su_linea
+Universal Random Seed for this call to the service: 305550.
+
+File ../../common/README_synopsis.typ downloaded in the output folder.
+File ../../common/README_rtal.typ downloaded in the output folder.
+File README_this_TALight_problem.typ not found!
+The server is running in TRACKING mode, that is, it keeps track of the autenticated submissions and their evaluation results.
+And the user has autenticated by providing his personal token in this call to the server.
+
+Trying to read the data.yaml file `/home/ubuntu/esami-algo-private/esercitazioni_homeworks_DODM_2024/prima_PD_su_linea/testo/data.yaml` ...
+Ok: data.yaml file successfully read and parsed.
+The testbed has been successfully created.
+
+Subtask 1 (3 testcases):
+
+Case #001 [esempi_testo - hardcoded]: has been sent to you. Meanwhile you begin receiving it we start the chron.
+Case #001 [esempi_testo - hardcoded]: successfully ended (=communication protocol fully respected).
+
+Case #002 [esempi_testo - hardcoded]: has been sent to you. Meanwhile you begin receiving it we start the chron.
+Case #002 [esempi_testo - hardcoded]: successfully ended (=communication protocol fully respected).
+
+Case #003 [esempi_testo - hardcoded]: has been sent to you. Meanwhile you begin receiving it we start the chron.
+Case #003 [esempi_testo - hardcoded]: successfully ended (=communication protocol fully respected).
+
+Subtask 2 (5 testcases):
+
+Case #004 [small(seed=976790)]: has been sent to you. Meanwhile you begin receiving it we start the chron.
+
+Case #005 [small(seed=117821)]: has been sent to you. Meanwhile you begin receiving it we start the chron.
+
+Case #006 [small(seed=447857)]: has been sent to you. Meanwhile you begin receiving it we start the chron.
+
+Case #007 [small(seed=271120)]: has been sent to you. Meanwhile you begin receiving it we start the chron.
+
+Case #008 [small(seed=147731)]: has been sent to you. Meanwhile you begin receiving it we start the chron.
+
+Trying to store the results of the evalution in the database on the server.
+-Ok. The results of the evalution have been stored in the database on the server.
+
+File result.txt downloaded in your output folder.
+
+Bye-bye, my logging service ends here. Hope to see you again.
