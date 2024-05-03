@@ -13,16 +13,6 @@ supporto = {
     3: 4
 }
 
-MOD = 10**9 + 7
-
-
-supporto = {
-    0: 1,
-    1: 2,
-    2: 3,
-    3: 4
-}
-
 def num_feasible_solutions(n):
     """returns the number of feasible solutions for an input array A of n cells."""
     assert n >= 0
@@ -52,44 +42,47 @@ def num_feasible_solutions(n):
     return supporto[n]
 
 
-def optimize(n,A):
+def optimize(n, A):
     """returns the triple (optval,optsol,num_optsols) where optsol is the list of indexes of any optimal solution for the instance comprising of the first n cells of array A. A first inefficient but essential solution might take inspiration from a minimal recursive implementation of the function num_feasible_solutions above"""
     assert n >= 0
     assert n == len(A)
 
-    num_optsols = 1 % MOD
-
-    dp = [-1 for _ in range(n)]
+    dp = [-1 for _ in range(n+1)]
     idx = [[] for _ in range(n)]
+    num_optsols = [0 for _ in range(n+1)]
 
     dp[0] = A[0]
-    idx[0] = [0]
+    num_optsols[0] = 1
 
-    for i in range(1, n):
-        pick = A[i]
-
+    for i in range(1, n+1):
+        pick = A[i-1]
+        
         # Check if there are at least three elements before the current element
-        if i > 2:
+        if i > 3:
             pick += dp[i - 3]
+            num_optsols_if_pick = num_optsols[i - 3]
+        else:
+            num_optsols_if_pick = 1
 
         non_pick = dp[i - 1]
-        
+        num_optsols_if_not_pick = num_optsols[i - 1] 
+                
         # Store the maximum of the two choices in the DP table
         dp[i] = max(pick, non_pick)
 
         if pick > non_pick:
-            idx[i].append(i)
+            idx[i-1].append(i-1)
+            num_optsols[i] = num_optsols_if_pick % MOD
             if i > 2:
-                idx[i].extend(idx[i - 3])
+                idx[i-1].extend(idx[i - 4])
+        elif pick < non_pick:
+            idx[i-1].extend(idx[i-2])
+            num_optsols[i] = num_optsols_if_not_pick % MOD
         else:
-            idx[i].extend(idx[i - 1])
+            num_optsols[i] = (num_optsols_if_pick + num_optsols_if_not_pick) % MOD
 
-    optimal_indices = [i for i, x in enumerate(dp) if x == dp[n-1]]
-    optimal_subset = [idx[i] for i in optimal_indices]
-    num_optsols = len(set([tuple(sublist) for sublist in optimal_subset]))
+    return dp[n], idx[n-1], num_optsols[n]
 
-    return dp[n - 1], idx[n - 1] ,num_optsols
-              
 if __name__ == "__main__":
     debug_level = 0
     if len(argv) == 2:

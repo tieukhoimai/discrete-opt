@@ -1,3 +1,6 @@
+## VR505019 - KHOI MAI TIEU
+## VR501305 - PEDRO ALONSO LOPEZ TORRES
+
 #!/usr/bin/env python3
 from sys import stderr, stdout, argv
 
@@ -43,14 +46,6 @@ def solve(n, nei):
     connected_components = graph.connectedComponents()
     
     return connected_components
-
-# def solve(n,nei):
-#     # TODO: write here your solution!
-#     # this should return the list of the connected components of the graph (in any order). In turn, every connected component is the list of its nodes (again in any order).
-    
-#     CC = [ [v] for v in range(n) ] # this is just good enough to respect the intended communication protocol with the server (and would be correct only if the graph had no edges)
-    
-#     return CC
 
 if __name__ == "__main__":
     debug_level = 0
