@@ -13,16 +13,6 @@ supporto = {
     3: 4
 }
 
-MOD = 10**9 + 7
-
-
-supporto = {
-    0: 1,
-    1: 2,
-    2: 3,
-    3: 4
-}
-
 def num_feasible_solutions(n):
     """returns the number of feasible solutions for an input array A of n cells."""
     assert n >= 0
@@ -38,13 +28,13 @@ def num_feasible_solutions(n):
 
     tot += somma
 
-    # trovo i sottoproblemi j
-    j = 4
-    cont = 1
-    while (j * 2) - cont <= n:
-        tot += num_feasible_solutions(j) - (j + 1)
-        j += 1
-        cont += 1
+    # Sommo i sottoproblemi j
+    for j in range(4, n-2):
+        if j in supporto:
+            tot += supporto[j] - (j + 1)
+        else:
+            supporto[j] = supporto[j-1] + supporto[j-3]
+            tot += supporto[j] - (j + 1)
 
     if n not in supporto:
         supporto[n] = tot % MOD
@@ -52,7 +42,7 @@ def num_feasible_solutions(n):
     return supporto[n]
 
 
-def optimize(n,A):
+def optimize(n, A):
     """returns the triple (optval,optsol,num_optsols) where optsol is the list of indexes of any optimal solution for the instance comprising of the first n cells of array A. A first inefficient but essential solution might take inspiration from a minimal recursive implementation of the function num_feasible_solutions above"""
     assert n >= 0
     assert n == len(A)
@@ -89,7 +79,7 @@ def optimize(n,A):
     num_optsols = len(set([tuple(sublist) for sublist in optimal_subset]))
 
     return dp[n - 1], idx[n - 1] ,num_optsols
-              
+
 if __name__ == "__main__":
     debug_level = 0
     if len(argv) == 2:
