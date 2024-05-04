@@ -28,7 +28,6 @@ def num_feasible_solutions(n):
 
     tot += somma
 
-    # Sommo i sottoproblemi j
     for j in range(4, n-2):
         if j in supporto:
             tot += supporto[j] - (j + 1)
