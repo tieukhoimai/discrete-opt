@@ -1,90 +1,87 @@
 
 Subtask 1 (3 testcases):
-Case #001 [esempi_testo - hardcoded]: AC (0.062/1.000 secs) All Correct (got 2/2 points)
-Case #002 [esempi_testo - hardcoded]: PAC (0.005/1.000 secs) Partially Correct (2/2 points)
+Case #001 [esempi_testo - hardcoded]: AC (0.050/1.000 secs) All Correct (got 2/2 points)
+Case #002 [esempi_testo - hardcoded]: PAC (0.106/1.000 secs) Partially Correct (2/2 points)
 Some feedback is in order:
  - count optimal solutions: 0/0 points. Feedback: the number of optimal solutions for this instance is 13 and not 1.
 
-Case #003 [esempi_testo - hardcoded]: AC (0.004/1.000 secs) All Correct (got 2/2 points)
+Case #003 [esempi_testo - hardcoded]: AC (0.095/1.000 secs) All Correct (got 2/2 points)
 
 Subtask 2 (5 testcases):
-Case #004 [small(seed=579960)]: PAC (0.004/1.000 secs) Partially Correct (3/4 points)
+Case #004 [small(seed=515376)]: PAC (0.080/1.000 secs) Partially Correct (3/4 points)
 Some feedback is in order:
  - count optimal solutions: 0/1 points. Feedback: the number of optimal solutions for this instance is 2 and not 1.
 
-Case #005 [small(seed=119669)]: AC (0.004/1.000 secs) All Correct (got 4/4 points)
-Case #006 [small(seed=635142)]: AC (0.005/1.000 secs) All Correct (got 4/4 points)
-Case #007 [small(seed=548435)]: PAC (0.005/1.000 secs) Partially Correct (3/4 points)
-Some feedback is in order:
- - count optimal solutions: 0/1 points. Feedback: the number of optimal solutions for this instance is 2 and not 1.
-
-Case #008 [small(seed=487219)]: AC (0.006/1.000 secs) All Correct (got 4/4 points)
+Case #005 [small(seed=706501)]: AC (0.081/1.000 secs) All Correct (got 4/4 points)
+Case #006 [small(seed=632562)]: AC (0.079/1.000 secs) All Correct (got 4/4 points)
+Case #007 [small(seed=784985)]: AC (0.061/1.000 secs) All Correct (got 4/4 points)
+Case #008 [small(seed=988921)]: AC (0.060/1.000 secs) All Correct (got 4/4 points)
 
 Subtask 3 (5 testcases):
-Case #009 [medium(seed=698280)]: PAC (0.005/1.000 secs) Partially Correct (3/4 points)
+Case #009 [medium(seed=239623)]: PAC (0.080/1.000 secs) Partially Correct (3/4 points)
+Some feedback is in order:
+ - count optimal solutions: 0/1 points. Feedback: the number of optimal solutions for this instance is 12 and not 1.
+
+Case #010 [medium(seed=242611)]: PAC (0.073/1.000 secs) Partially Correct (3/4 points)
 Some feedback is in order:
  - count optimal solutions: 0/1 points. Feedback: the number of optimal solutions for this instance is 2 and not 1.
 
-Case #010 [medium(seed=601278)]: PAC (0.005/1.000 secs) Partially Correct (3/4 points)
+Case #011 [medium(seed=434825)]: PAC (0.082/1.000 secs) Partially Correct (3/4 points)
 Some feedback is in order:
  - count optimal solutions: 0/1 points. Feedback: the number of optimal solutions for this instance is 2 and not 1.
 
-Case #011 [medium(seed=550430)]: PAC (0.004/1.000 secs) Partially Correct (3/4 points)
+Case #012 [medium(seed=694702)]: PAC (0.080/1.000 secs) Partially Correct (3/4 points)
+Some feedback is in order:
+ - count optimal solutions: 0/1 points. Feedback: the number of optimal solutions for this instance is 4 and not 1.
+
+Case #013 [medium(seed=730404)]: PAC (0.106/1.000 secs) Partially Correct (3/4 points)
 Some feedback is in order:
  - count optimal solutions: 0/1 points. Feedback: the number of optimal solutions for this instance is 2 and not 1.
-
-Case #012 [medium(seed=959554)]: PAC (0.004/1.000 secs) Partially Correct (3/4 points)
-Some feedback is in order:
- - count optimal solutions: 0/1 points. Feedback: the number of optimal solutions for this instance is 3 and not 1.
-
-Case #013 [medium(seed=600166)]: PAC (0.005/1.000 secs) Partially Correct (3/4 points)
-Some feedback is in order:
- - count optimal solutions: 0/1 points. Feedback: the number of optimal solutions for this instance is 15 and not 1.
 
 
 Subtask 4 (3 testcases):
-Case #014 [big(seed=237147)]: PAC (0.005/1.000 secs) Partially Correct (5/7 points)
+Case #014 [big(seed=874545)]: PAC (0.065/1.000 secs) Partially Correct (5/7 points)
 Some feedback is in order:
- - count optimal solutions: 0/2 points. Feedback: the number of optimal solutions for this instance is 20 and not 1.
+ - count optimal solutions: 0/2 points. Feedback: the number of optimal solutions for this instance is 2 and not 1.
 
-Case #015 [big(seed=184485)]: PAC (0.007/1.000 secs) Partially Correct (5/7 points)
-Some feedback is in order:
- - count optimal solutions: 0/2 points. Feedback: the number of optimal solutions for this instance is 12 and not 1.
-
-Case #016 [big(seed=608393)]: PAC (0.005/1.000 secs) Partially Correct (5/7 points)
+Case #015 [big(seed=978637)]: PAC (0.075/1.000 secs) Partially Correct (5/7 points)
 Some feedback is in order:
  - count optimal solutions: 0/2 points. Feedback: the number of optimal solutions for this instance is 4 and not 1.
 
+Case #016 [big(seed=218054)]: PAC (0.080/1.000 secs) Partially Correct (5/7 points)
+Some feedback is in order:
+ - count optimal solutions: 0/2 points. Feedback: the number of optimal solutions for this instance is 56 and not 1.
+
 
 Subtask 5 (3 testcases):
-Case #017 [large(seed=916180)]: PAC (0.012/1.000 secs) Partially Correct (4/5 points)
+Case #017 [large(seed=714240)]: PAC (0.120/1.000 secs) Partially Correct (4/5 points)
 Some feedback is in order:
- - count optimal solutions: 0/1 points. Feedback: the number of optimal solutions for this instance is 345121450 and not 1.
+ - count optimal solutions: 0/1 points. Feedback: the number of optimal solutions for this instance is 863871171 and not 1.
 
-Case #018 [large(seed=892569)]: PAC (0.008/1.000 secs) Partially Correct (4/5 points)
+Case #018 [large(seed=169156)]: PAC (0.115/1.000 secs) Partially Correct (4/5 points)
 Some feedback is in order:
- - count optimal solutions: 0/1 points. Feedback: the number of optimal solutions for this instance is 996379744 and not 1.
+ - count optimal solutions: 0/1 points. Feedback: the number of optimal solutions for this instance is 852281119 and not 1.
 
-Case #019 [large(seed=336643)]: PAC (0.007/1.000 secs) Partially Correct (4/5 points)
+Case #019 [large(seed=882130)]: PAC (0.140/1.000 secs) Partially Correct (4/5 points)
 Some feedback is in order:
- - count optimal solutions: 0/1 points. Feedback: the number of optimal solutions for this instance is 835752078 and not 1.
+ - count optimal solutions: 0/1 points. Feedback: the number of optimal solutions for this instance is 528823801 and not 1.
 
 
 Subtask 6 (1 testcases):
-Case #020 [all_equal(seed=946899)]: PAC (0.011/1.000 secs) Partially Correct (9/10 points)
+Case #020 [all_equal(seed=666236)]: PAC (0.098/1.000 secs) Partially Correct (9/10 points)
 Some feedback is in order:
  - count optimal solutions: 0/1 points. Feedback: the number of optimal solutions for this instance is 501501 and not 1.
 
 
 Subtask 7 (2 testcases):
-Case #021 [extra_large(seed=959524)]: PAC (0.682/1.000 secs) Partially Correct (5/6 points)
+Case #021 [extra_large(seed=737906)]: PAC (0.975/1.000 secs) Partially Correct (5/6 points)
 Some feedback is in order:
- - count optimal solutions: 0/1 points. Feedback: the number of optimal solutions for this instance is 539228618 and not 1.
+ - count optimal solutions: 0/1 points. Feedback: the number of optimal solutions for this instance is 997384487 and not 1.
 
-Case #022 [extra_large(seed=984626)]: PAC (0.695/1.000 secs) Partially Correct (5/6 points)
+Case #022 [extra_large(seed=247423)]: PAC (0.928/1.000 secs) Partially Correct (5/6 points)
 Some feedback is in order:
- - count optimal solutions: 0/1 points. Feedback: the number of optimal solutions for this instance is 994326525 and not 1.
+ - count optimal solutions: 0/1 points. Feedback: the number of optimal solutions for this instance is 296598526 and not 1.
 
 
 
-Score: 85/104 points
+Score: 86/104 points

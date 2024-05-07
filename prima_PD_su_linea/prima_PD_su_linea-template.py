@@ -73,9 +73,10 @@ def optimize(n, A):
         else:
             idx[i].extend(idx[i - 1])
 
-    optimal_indices = [i for i, x in enumerate(dp) if x == dp[n-1]]
-    optimal_subset = [idx[i] for i in optimal_indices]
-    num_optsols = len(set([tuple(sublist) for sublist in optimal_subset]))
+    # Not correct
+    # optimal_indices = [i for i, x in enumerate(dp) if x == dp[n-1]]
+    # optimal_subset = [idx[i] for i in optimal_indices]
+    # num_optsols = len(set([tuple(sublist) for sublist in optimal_subset]))
 
     return dp[n - 1], idx[n - 1] ,num_optsols
 
