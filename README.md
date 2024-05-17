@@ -1,4 +1,4 @@
-# discrete-opt-TALight
+# Discrete Optimization
 
 ## Installation
 
@@ -80,31 +80,21 @@ So, for every problem, the main file is `testo.pdf`, that open (and/or prints) l
 
 *Important:* Please, if you are not confortable with Italien, and the file `testo.en.pdf` is not yet there, remind us that we have still to provide it as due.
 
-##  How to submit your solutions and get points
+##  How to submit solutions and view points
 
-First thing you have to login to the service through your GIA credentials:
+First thing, login to the service through GIA credentials:
 
 ```bash
 rtal -s wss://ta.di.univr.it/DODM2024 login
 ```
 
-This will return you an URL which you open at in any browser and do the accreditation with the Verona University. This will create the needed cookies on your machine and the needed records on our server so that, from now on you can directly submit at your name from that machine.
+Example of cmd to submit
 
-*IMPORTANT:* if you work in group (we are very happy of that, but max 3), then it is important that:
-
-1. all of the members of the group submit (entering at their own names)
-
-2. in the source that you attach to the submission, possibly at the beginning (in commented lines) place the student codes (in the form VR??????) of each member of the group
-
-3. if the source actually comprises more than one file then put the .tar of them in attachment
-
-Example of call
 ```bash
 rtal -s wss://ta.di.univr.it/DODM2024 connect conio1 -f source=conio1-sol_gurobi.py -- ~/corsi/Algoritmi/esami-algo-private/esercitazioni/conio1/sol/conio1-sol_gurobi.py
 ```
 
-*Note 1:* After the `--` goes whatever runs on your local machine.
-For example, if you are on a Windows machine where the files ending in `.py` can not be executable files, then you would resort on writing something like:
+if you are on a Windows machine where the files ending in `.py` can not be executable files, then you would resort on writing something like:
 
 ```bash
 rtal -s wss://ta.di.univr.it/DODM2024 connect conio1 -f source=conio1-sol_gurobi.py -- python ~/corsi/Algoritmi/esami-algo-private/esercitazioni/conio1/sol/conio1-sol_gurobi.py
@@ -112,7 +102,7 @@ rtal -s wss://ta.di.univr.it/DODM2024 connect conio1 -f source=conio1-sol_gurobi
 
 *Note 2:* What your program writes on `stderr` does not disturb the interaction with the server and appears on you terminal. THerefore, `stderr` is a very useful channel for print debugging.
 
-To see the points we have collected 
+And to see the points we have collected 
 
 ```bash
 rtal -s wss://ta.di.univr.it/DODM2024 connect scoreboard
