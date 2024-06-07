@@ -54,9 +54,7 @@ Right now, the problems available for you to solve are:
 - prima_PD_su_linea
 ```
 
-(but we will be adding further problems during the course)
-
-Assume you want to try out one of these problems:
+To try out one of these problems:
 
 ```bash
 rtal -s wss://ta.di.univr.it/DODM2024 get conio1
@@ -66,7 +64,8 @@ And the file `conio1.tar` will be downoaded in the directory you stand. Decompre
 ```bash
 tar xvf conio1.tar
 ```
-and you get more than the files you need to work on the problem:
+
+To get more than the files you need to work on the problem:
 
 ```
 conio1/meta.yaml  (<-- to get to know possible services available for the problem) 
@@ -77,8 +76,6 @@ conio1/README_synopsis.typ  (<-- possibly updated version)
 conio1/README_rtal.typ  (<-- possibly updated version)
 ```
 So, for every problem, the main file is `testo.pdf`, that open (and/or prints) like any other .pdf file.
-
-*Important:* Please, if you are not confortable with Italien, and the file `testo.en.pdf` is not yet there, remind us that we have still to provide it as due.
 
 ##  How to submit solutions and view points
 
@@ -100,9 +97,9 @@ if you are on a Windows machine where the files ending in `.py` can not be execu
 rtal -s wss://ta.di.univr.it/DODM2024 connect conio1 -f source=conio1-sol_gurobi.py -- python ~/corsi/Algoritmi/esami-algo-private/esercitazioni/conio1/sol/conio1-sol_gurobi.py
 ```
 
-*Note 2:* What your program writes on `stderr` does not disturb the interaction with the server and appears on you terminal. THerefore, `stderr` is a very useful channel for print debugging.
+*Note 2:* What your program writes on `stderr` does not disturb the interaction with the server and appears on you terminal. Therefore, `stderr` is a very useful channel for print debugging.
 
-And to see the points we have collected 
+To see the points
 
 ```bash
 rtal -s wss://ta.di.univr.it/DODM2024 connect scoreboard
